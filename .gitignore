@@ -1,0 +1,4 @@
+__pycache__/
+*.txt
+!README.txt
+!requirements.txt
