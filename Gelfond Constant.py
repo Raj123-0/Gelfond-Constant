@@ -16,14 +16,14 @@ and removing dead code.
 
 from __future__ import annotations
 
+from pathlib import Path
 import argparse
-import os
 import sys
 import time
-from pathlib import Path
-from typing import Tuple
 
 import mpmath
+
+
 
 # The original script forced an unlimited integer string length.  Keeping the
 # behaviour for compatibility with very large digit counts.
